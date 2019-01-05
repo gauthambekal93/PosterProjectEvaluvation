@@ -1,0 +1,11 @@
+{
+  "name": "",
+  "version": "",
+  "description": "QR Code provides a token to the client(mobile app)\r Client stores the token\r It will now send the token to server for validation\r If the token is valid then server will send userid,login success message\r Now the client is logged in and can send other requests\r Client uses the stored token and sends it along with on every request\r Server verifies token and responds with data",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.0"
+  }
+}
